@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our First Mini Website Project</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+        
+        <!-- NAVIGATION BAR -->
+         <div class="navbar-container">
+         <ul class="ul-navbar">
+            <img src="image.png" class="img-navbar" />
+            <li class="li-navbar">
+                <a href="home.html" class="a-navbar">HOME</a>
+            </li>
+            <li class="li-navbar">
+                <a href="about.html" class="a-navbar">ABOUT US</a>
+            </li>
+            <li class="li-navbar">
+                <a href="our portfolio.html" class="a-navbar">OUR PORTFOLIO</a>
+            </li>
+            <li class="li-navbar">
+                <a href="contact.html" class="a-navbar">CONTACT US</a>
+            </li>
+            
+         </ul>
+         </div>
+         <!-- NAVIGATION BAR END -->
+
+        <!-- CONTENT -->
+         <div class="container-content">
+            <a href="https://google.com"
+            class="a-content">
+                <img src="flat-hospital-vector-20532180.jpg" class="img-content" /> 
+                <p>Toward integrated and secure patient-oriented service in one app </p>
+            </a>
+         
+        
+         </div>
+       
+        <!-- CONTENT END -->
+
+        <!-- FOOTER -->
+         <div class="container-footer">
+          <h1 class="h1-footer">Our Collaborator</h1>
+          <h2> Administrator</h2>
+          <h2> Proctor</h2> 
+          <h2> Designer</h2>      
+         </div>
+        <!-- FOOTER END -->
+        <main>
+            <input type="color">
+            <section class="message" id="message">
+                <div class="message-text">
+                    <h1>Thank You for visiting our mini website</h1>
+                    <h2>Please Contact us</h2>
+                    <div class="form container">
+                        <form action="isi data" id="inputForm">
+                         <label class="name">Name</label>
+                         <input type="text" name="name" id="name" required>
+                         <label for="birthdate">Birth date</label>
+                         <input type="date" name="birthdate" id="birthdate" required>
+                         <label>gender</label><br>
+                         <select name="gender" id="gender" class="jenis kelamin-select">
+                             <option value="laki-laki">Male</option>
+                             <option value="perempuan">Female</option>
+                         </select>
+                         <label for="message">message</label>
+                         <textarea name="message" id="message" cols="50" rows="4" required></textarea>
+                         <input type="submit" value="submit">
+                        </form>
+                    </div>
+
+                    <div class="result-container" id="resultContainer">
+                        <p id="displayName"></p>
+                        <p id="displayBirthdate"></p>
+                        <p id="displayGender"></p>
+                        <p id="displayMessage"></p>
+                    </div>
+           
+            </section>
+        </main>
+         </div>
+         <script src="script.js"  />
+    </body>
+</html>
